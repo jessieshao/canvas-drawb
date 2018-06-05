@@ -10,9 +10,43 @@
 <body>
     <canvas id="xxx" width=300 height=300></canvas>
     <div id=actions class="actions">
-      <button id=eraser>橡皮擦</button>
-      <button id=brush>画笔</button>
-  </div>
+        <div class="allicon">
+        <svg class="icon active" id="pen">
+            <use xlink:href="#icon-huabi"></use>
+        </svg>
+        <svg class="icon" id="pen1">
+            <use xlink:href="#icon-huabi1"></use>
+        </svg>
+        <svg class="icon" id="eraser"> 
+            <use xlink:href="#icon-xiangpica-copy"></use>
+        </svg>
+        <svg class="icon" id="download">
+            <use xlink:href="#icon-xiazai"></use>
+        </svg>
+        <svg class="icon" id="clear">
+            <use xlink:href="#icon-shanchu"></use>
+        </svg>
+    </div>
+    </div>
+    <div class="colors clearfix">
+        <ol class="colorone">
+                <li id="black" class="black active"></li>
+                <li id="red" class="red"></li>
+                <li id="blue" class="blue"></li>
+                <li id="pink" class="pink"></li>
+                <li id="yellow" class="yellow"></li>
+                <li id="green" class="green"></li>
+        </ol>
+        <ol class="colortwo">
+                <li id="grey" class="grey"></li>
+                <li id="purple" class="purple"></li>
+                <li id="maroon" class="maroon"></li>
+                <li id="lawngreen" class="lawngreen"></li>
+                <li id="orange" class="orange"></li>
+                <li id="aqua" class="aqua"></li>
+        </ol>    
+    </div>
   <script src="./main.js"></script>
+  <script src="//at.alicdn.com/t/font_693901_ielsrykfxfq7iudi.js"></script>
 </body>
 </html>

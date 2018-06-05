@@ -97,7 +97,7 @@ html{
     background: aqua;
 }
 .colors li.active{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .colorone{
     float: left;

@@ -38,7 +38,7 @@ clear.onclick = function(){
 }
 //保存
 download.onclick = function(){
-    var url = yyy.toDataURL('image/png')
+    var url = yyy.toDataURL('image/jpeg')
     var a = document.createElement('a')
     document.body.appendChild(a)
     a.href = url
